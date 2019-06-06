@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class SignUp extends Component {
-    CanvasRenderingContext2D() {
+    render() {
         return (
             <div className = 'sign-up'>
             </div>
