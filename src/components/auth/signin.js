@@ -15,8 +15,8 @@ class SignIn extends Component {
                 <PageTitle className='sign-in__page-title'
                 title='Login' />
                 <SignInForm 
-                className= 'sign-in__form'
-                onSubmit={this.onSubmit}
+                    className= 'sign-in__form'
+                    onSubmit={this.onSubmit}
                 />
             </div>
         )
