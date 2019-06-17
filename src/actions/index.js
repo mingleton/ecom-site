@@ -6,14 +6,15 @@ import {
 
 import {
     fetchUserPurchases,
-    setPurchaseDetail
+    setPurchaseDetail,
+    fetchCartProducts
 } from './user';
 
 import {
     fetchShopCategories,
     fetchShopProducts,
     filterProductsWithId,
-    filterProductsWithQuery
+    filterProductsWithQuery,
 } from './shop';
 
 export {
@@ -25,5 +26,6 @@ export {
     fetchShopCategories,
     fetchShopProducts,
     filterProductsWithId,
-    filterProductsWithQuery
+    filterProductsWithQuery,
+    fetchCartProducts
 };
