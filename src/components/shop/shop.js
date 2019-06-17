@@ -5,6 +5,7 @@ import * as actions from '../../actions'
 
 import ShopSearchBar from './shopSearchbar';
 import ShopProduct from './shopProduct';
+import ShopCart from './shopCart';
 
 
 class Shop extends Component {
@@ -37,6 +38,8 @@ class Shop extends Component {
     }
 
     render() {
+        return <ShopCart className='shop__cart' />
+
         return (
         <div className='shop'>
             <ShopSearchBar onSubmit={this.onSubmit} className='shop__search-bar' />
