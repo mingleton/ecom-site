@@ -1,4 +1,6 @@
 .shop-cart {
+    transition: all .3s ease;
+
    display: grid;
    grid-template-rows: [tog-s] 40px [tog-e con-s] 1fr [con-e];
    grid-template-columns: [s] 1fr [e];
@@ -10,9 +12,6 @@
        grid-column: s/e;
        justify-self: end;
 
-       display: grid;
-       justify-items: center;
-       align-items: center;
    }
 
    &__content {
@@ -24,7 +23,7 @@
 
 .shop-cart {
     &__toggle {
-      
+      z-index: 6;
     }
 
     &__content {
@@ -139,6 +138,10 @@
         font-weight: 600;
     }
 
+}
+
+.cart-hidden {
+    transform: translateX(520px);
 }
 
 
