@@ -69,49 +69,63 @@ export function fetchShopProducts() {
                 title: 'JavaScript in the Browser',
                 description: 'Cool sticker that shows stuff',
                 price: '1.99',
-                belongsTo: [0 ,1]
+                belongsTo: [0 ,1],
+                imageUrl: 'http://via.placeholder.com/80x80'
+
             },
             {
                 _id: 1,
                 title: 'Graph Database',
                 description: 'Cool sticker that shows stuff',
                 price: '1.99',
-                belongsTo: [0 ,6]
+                belongsTo: [0 ,6],
+                imageUrl: 'http://via.placeholder.com/80x80'
+
             },
             {
                 _id: 2,
                 title: 'Full Stack Development',
                 description: 'Wayyy dope sticker dude',
                 price: '2.05',
-                belongsTo: [0 ,1, 4]
+                belongsTo: [0 ,1, 4],
+                imageUrl: 'http://via.placeholder.com/80x80'
+
             },
             {
                 _id: 3,
                 title: 'User Interface Design',
                 description: 'Cool sticker that shows stuff',
                 price: '1.99',
-                belongsTo: [0 ,2]
+                belongsTo: [0 ,2],
+                imageUrl: 'http://via.placeholder.com/80x80'
+
             },
             {
                 _id: 4,
                 title: 'JavaScript Development',
                 description: 'Cool sticker that shows stuff',
                 price: '1.99',
-                belongsTo: [0 ,1]
+                belongsTo: [0 ,1],
+                imageUrl: 'http://via.placeholder.com/80x80'
+
             },
             {
                 _id: 5,
                 title: 'User Experience Design',
                 description: 'Cool sticker that shows stuff',
                 price: '1.99',
-                belongsTo: [0 ,2]
+                belongsTo: [0 ,2],
+                imageUrl: 'http://via.placeholder.com/80x80'
+
             },
             {
                 _id: 6,
                 title: 'Object Oriented Programming',
                 description: 'Cool sticker that shows stuff',
                 price: '1.99',
-                belongsTo: [0 ,6]
+                belongsTo: [0 ,6],
+                imageUrl: 'http://via.placeholder.com/80x80'
+
             }
 
         ]
