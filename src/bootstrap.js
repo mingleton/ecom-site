@@ -15,6 +15,8 @@ import SignIn from './components/auth/signin';
 import SignUp from './components/auth/signup';
 import Account from './components/account/account';
 import Shop from './components/shop/shop';
+import Shipping from './components/information/shippingInfo';
+import Payment from './components/information/paymentInfo';
 
 
 function main() {
@@ -29,6 +31,8 @@ function main() {
             <Route path='/account' exact component={Account} />
             <Route path='/shop' exact component={Shop} />
             <Route path='/order/review' exact component ={Review}/>
+            <Route path='/information/shippingInfo' exact component ={Shipping}/>
+            <Route path='/information/paymentInfo' exact component ={Payment}/>
 
           </Switch>
         </Layout>
