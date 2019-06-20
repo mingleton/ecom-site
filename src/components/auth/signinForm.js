@@ -4,8 +4,8 @@ import { reduxForm, Field } from 'redux-form';
 
 import { FormInput, FormButton } from '../formFields';
 import Details from '../details'
+import history from '../../history'
 
-import history from '../../history';
 
 class SignInForm extends Component {
     render() {
